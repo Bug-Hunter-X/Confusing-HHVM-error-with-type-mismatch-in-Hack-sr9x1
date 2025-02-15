@@ -1,0 +1,3 @@
+# Confusing HHVM Error with Type Mismatch in Hack
+
+This repository demonstrates a scenario where HHVM produces a confusing error message when there's a type mismatch in Hack code.  The error is subtle and doesn't clearly pinpoint the source of the problem, which involves a function returning an unexpected type. The problem is more pronounced when dealing with type hinting and implicit type conversions.
